@@ -1,6 +1,3 @@
-import matplotlib
-if matplotlib.get_backend()=='MacOSX': matplotlib.use('Qt4Agg')
-
 from shooter import Game, GameManager
 from shooter2 import Game as Game2
 from collections.abc import MutableMapping
